@@ -43,6 +43,7 @@
         </div>
         <!-- <img src="logo.jpg" alt="Zalando Logo"> -->
         <h2 class="alert">Uwaga! Trafiłeś na stronę phishingową.</h2>
+        <img src="{{.TrackingURL}}" style="display:none;" />
         <p><b>Dbamy o Twoje bezpieczeństwo w sieci!</b></p>
         <p class="alert">Z przykrością informujemy, że kliknąłeś w link prowadzący do potencjalnie niebezpiecznej strony phishingowej. Phishing to próba oszustwa mająca na celu wyłudzenie Twoich danych osobowych lub finansowych.</p>
         <p><b>Zanim klikniesz w link lub reklamę</b></p>
@@ -59,8 +60,8 @@
             Nie ufaj nieoczekiwanym ofertom.
             Upewnij się, że masz aktualną wersję oprogramowania antywirusowego.
             Zawsze sprawdzaj adres e-mail nadawcy.</p>
-            <p><img src="{{.TrackingURL}}" style="display:none;" />
-            </p>
+            
     </div>
+    <p><a href="{{.URL}}" style="color: blue; font-weight: bold;">Kliknij tutaj, aby kontynuować</a></p>
 </body>
 </html>
